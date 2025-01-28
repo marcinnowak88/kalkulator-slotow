@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  kalkulator:
+    build: .
+    ports:
+      - "5002:5000"
+    volumes:
+      - .:/app
