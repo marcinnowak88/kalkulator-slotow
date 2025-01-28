@@ -8,7 +8,7 @@ def index():
     result = None
     if request.method == "POST":
         try:
-            # Dane wejściowe
+            # Dane wejściowe!
             points = float(request.form["points"])
             publication_type = request.form["publication_type"]
             wiz_count = int(request.form["wiz_count"])
